@@ -36,12 +36,9 @@ extension UIImageView
         if url.characters.count < 7
         { return
         }
-        
         do{
             let dato = try Data(contentsOf : URL(string : url)!)
-            
             self.image = UIImage(data : dato)
-            
         }
         catch{
             print ("Error: \(error))")

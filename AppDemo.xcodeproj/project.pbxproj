@@ -12,11 +12,14 @@
 		5017D65D1DF5D804007ACB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5017D65B1DF5D804007ACB1B /* Main.storyboard */; };
 		5017D65F1DF5D804007ACB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5017D65E1DF5D804007ACB1B /* Assets.xcassets */; };
 		5017D6621DF5D804007ACB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5017D6601DF5D804007ACB1B /* LaunchScreen.storyboard */; };
+		509E797C1DFB07830078C994 /* basededatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 509E797A1DFB07830078C994 /* basededatos.xcdatamodeld */; };
+		509E797F1DFB08640078C994 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E797E1DFB08640078C994 /* Persona.swift */; };
 		50A384641DF5F7130035A5AA /* FilaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A384631DF5F7130035A5AA /* FilaTableViewCell.swift */; };
 		50CFA0DD1DF71A7E00FDF223 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFA0DC1DF71A7E00FDF223 /* DetalleViewController.swift */; };
 		50CFA0DF1DF739AC00FDF223 /* AgregarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFA0DE1DF739AC00FDF223 /* AgregarViewController.swift */; };
 		50CFA0E11DF8848700FDF223 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFA0E01DF8848700FDF223 /* LoginViewController.swift */; };
 		50CFA0E61DF8B6A200FDF223 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFA0E51DF8B6A200FDF223 /* UIImageViewExtension.swift */; };
+		50CFA10B1DF9EACE00FDF223 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50CFA10A1DF9EACE00FDF223 /* GoogleService-Info.plist */; };
 		CA0A4A7ECAB7EFCD69DAF59E /* Pods_AppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C12807FD8436BB01ABF34FC /* Pods_AppDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +32,15 @@
 		5017D65E1DF5D804007ACB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5017D6611DF5D804007ACB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5017D6631DF5D804007ACB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509E797B1DFB07830078C994 /* basededatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = basededatos.xcdatamodel; sourceTree = "<group>"; };
+		509E797E1DFB08640078C994 /* Persona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		50A384631DF5F7130035A5AA /* FilaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilaTableViewCell.swift; sourceTree = "<group>"; };
 		50CFA0DC1DF71A7E00FDF223 /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 		50CFA0DE1DF739AC00FDF223 /* AgregarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarViewController.swift; sourceTree = "<group>"; };
 		50CFA0E01DF8848700FDF223 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		50CFA0E21DF8AB7900FDF223 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
 		50CFA0E51DF8B6A200FDF223 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		50CFA10A1DF9EACE00FDF223 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6C12807FD8436BB01ABF34FC /* Pods_AppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE02FA3C7DC7E68938870C92 /* Pods-AppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppDemo/Pods-AppDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +86,7 @@
 		5017D6561DF5D804007ACB1B /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				509E797D1DFB08470078C994 /* model */,
 				50CFA0E21DF8AB7900FDF223 /* MyPlayground.playground */,
 				5017D6571DF5D804007ACB1B /* AppDelegate.swift */,
 				5017D6591DF5D804007ACB1B /* ViewController.swift */,
@@ -92,8 +99,18 @@
 				50CFA0DE1DF739AC00FDF223 /* AgregarViewController.swift */,
 				50CFA0E01DF8848700FDF223 /* LoginViewController.swift */,
 				50CFA0E51DF8B6A200FDF223 /* UIImageViewExtension.swift */,
+				50CFA10A1DF9EACE00FDF223 /* GoogleService-Info.plist */,
+				509E797A1DFB07830078C994 /* basededatos.xcdatamodeld */,
 			);
 			path = AppDemo;
+			sourceTree = "<group>";
+		};
+		509E797D1DFB08470078C994 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				509E797E1DFB08640078C994 /* Persona.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		DF2362D9FDA5EFB5F43B82B1 /* Pods */ = {
@@ -168,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5017D6621DF5D804007ACB1B /* LaunchScreen.storyboard in Resources */,
+				50CFA10B1DF9EACE00FDF223 /* GoogleService-Info.plist in Resources */,
 				5017D65F1DF5D804007ACB1B /* Assets.xcassets in Resources */,
 				5017D65D1DF5D804007ACB1B /* Main.storyboard in Resources */,
 			);
@@ -231,10 +249,12 @@
 				50CFA0E11DF8848700FDF223 /* LoginViewController.swift in Sources */,
 				50CFA0E61DF8B6A200FDF223 /* UIImageViewExtension.swift in Sources */,
 				50CFA0DD1DF71A7E00FDF223 /* DetalleViewController.swift in Sources */,
+				509E797F1DFB08640078C994 /* Persona.swift in Sources */,
 				5017D65A1DF5D804007ACB1B /* ViewController.swift in Sources */,
 				5017D6581DF5D804007ACB1B /* AppDelegate.swift in Sources */,
 				50A384641DF5F7130035A5AA /* FilaTableViewCell.swift in Sources */,
 				50CFA0DF1DF739AC00FDF223 /* AgregarViewController.swift in Sources */,
+				509E797C1DFB07830078C994 /* basededatos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +298,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -327,6 +348,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C0F92B7400F18675DB55111 /* Pods-AppDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE02FA3C7DC7E68938870C92 /* Pods-AppDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -399,6 +423,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		509E797A1DFB07830078C994 /* basededatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				509E797B1DFB07830078C994 /* basededatos.xcdatamodel */,
+			);
+			currentVersion = 509E797B1DFB07830078C994 /* basededatos.xcdatamodel */;
+			path = basededatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5017D64C1DF5D804007ACB1B /* Project object */;
 }
